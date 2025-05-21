@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "realeconomy",
+  "version": "${version}",
+  "name": "RealEconomy",
+  "description": "A Minecraft Forge, Fabric and NeoForge economy plugin that supports multiple currencies.",
+  "authors": [
+    "bencrow11",
+    "Jean-Baptiste Lemée"
+  ],
+  "contact": {},
+  "license": "GPL-3.0",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "co.lemee.realeconomy.fabric.RealEconomyFabric"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.9",
+    "minecraft": ">=1.21"
+  }
+}
